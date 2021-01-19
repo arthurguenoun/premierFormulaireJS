@@ -1,0 +1,124 @@
+*{
+	box-sizing: border-box;
+}
+form {
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+.label {
+	width: 40%;
+	text-align: right;
+	padding-right: 15px;
+	margin-top: 20px;
+}
+.forme {
+	width:	60%;
+	display: flex;
+	margin-top: 20px;
+}
+#id-pays {
+	width: 100%;
+}
+
+.message {
+	line-height: 22px;;
+}
+.message #sexe{
+	margin: 0;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: lightgrey;
+	border-radius: 10px;
+	
+}
+
+.message #nom{
+	margin: 0;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: lightgrey;
+	border-radius: 10px;
+	display:none;
+}
+.deux {
+	width: 25%;
+}
+
+.message #prenom{
+	margin: 0;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: lightgrey;
+	border-radius: 10px;
+	display:none;
+}
+.message #age{
+	margin: 0;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: lightgrey;
+	border-radius: 10px;
+	display:none;
+}
+.message #pseudo{
+	margin: 0;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: lightgrey;
+	border-radius: 10px;
+	display:none;
+}
+.message #mdp{
+	margin: 0;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: lightgrey;
+	border-radius: 10px;
+	display:none;
+}
+.message #mdp2{
+	margin: 0;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: lightgrey;
+	border-radius: 10px;
+	display:none;
+}
+.deux2 {
+	width: 38%;
+	margin-right: 20px;
+}
+.message #pays{
+	margin: 0;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: lightgrey;
+	border-radius: 10px;
+	
+}
+
+.validation{
+	margin-top: 15px;
+	
+}
+#envoyer {
+	border-radius: 10px;
+	background-color: lightgrey;
+}
+#reinitialiser{
+	border-radius: 10px;
+	background-color: lightgrey;
+}
+
+#envoyer:hover {
+	background-color: black;
+	color: white;
+	transition: 1s;
+}
+#reinitialiser:hover {
+	background-color: black;
+	color: white;
+	transition: 1s;
+}

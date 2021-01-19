@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire</title>
+	    <!-- chargement de normalize -->
+    <link rel="stylesheet" href="asset/normalize.css">
+    <!-- Style perso -->
+    <link rel="stylesheet" href="asset/stylesheet.css">
+    <style>
+       
+    </style>
+</head>
+<body>
+   <form id="monForm" method="post" action="#" enctype="multipart-form/data" autocomplete='off'>
+	<p>
+		<div class ="label">
+		<label>Sexe: </label>
+		</div>
+		<div class ="forme">
+			<div class="deux">
+				<input type="radio" id='f' name="genre"value="femme"> 
+				<label for="f">Femme</label>
+				<input type="radio"  id='h'name="genre" value="homme"> 
+				<label for="h">Homme</label>
+			</div>
+			<div class="message">
+				<p id="sexe">Vous devez selectionner votre sexe</p>
+			</div>
+		</div>	
+	</p>
+
+	<p>
+		<div class ="label">
+			<label for="id-nom">Nom:</label>
+		</div>
+		<div class="forme">
+			<div class="deux">
+				<input type="text" id="id-nom" name="nom">
+			</div>
+			<div class="message">
+				<p id="nom">message</p>
+			</div>
+		</div>
+	
+	</p>
+
+	<p>
+		<div class ="label">
+			<label for="id-prenom">Prénom:</label>
+		</div>
+		<div class ="forme">
+			<div class="deux">
+            <input type="text" id="id-prenom" name="prenom">
+		</div>
+			<div class="message">
+				<p id="prenom">message</p>
+			</div>
+		</div>
+	</p>
+
+	<p>
+		<div class ="label">	
+			<label for="id-age">Âge:</label>
+		</div>
+		<div class = "forme">
+			<div class="deux">
+			<input type="text" id="id-age" name="age">
+			</div>
+			<div class="message">
+				<p id="age">message</p>
+			</div>
+		</div>
+	</p>
+	
+	<p>
+		<div class ="label">
+			<label for="id-pseudo">Pseudo:</label>
+		</div>
+		<div class="forme">
+			<div class="deux">
+            <input type="text" id="id-pseudo" name="pseudo">
+			</div>
+				<div class="message">
+				<p id="pseudo">message</p>
+			</div>
+		</div>
+	</p>
+	
+	<p>
+		<div class ="label">
+			<label for="id-mdp">Mot de passe:</label>
+		</div>
+		<div class="forme">
+			<div class="deux">
+            <input type="password" id="id-mdp" name="mdp">
+			</div>
+				<div class="message">
+				<p id="mdp">message</p>
+			</div>
+		</div>
+	</p>
+	
+	<p>
+		<div class ="label">
+			<label for="id-mdpd">Mot de passe (confirmation):</label>
+		</div>
+		<div class="forme">
+			<div class="deux">
+            <input type="password" id="id-mdpd" name="mdpd">
+			</div>
+				<div class="message">
+				<p id="mdp2">message</p>
+			</div>
+		</div>
+	</p>
+	
+	<p>
+		<div class ="label">
+            <label for="id-pays">Pays:</label>
+		</div>
+		<div class="forme">
+		<div class="deux2">
+            <select name="pays" id="id-pays" list="pays">
+            <datalist id="pays">
+				<option disabled selected>Sélectionnez votre pas de résidence</option>
+                <option value='usa'>Etats-unis</option>
+                <option value='it'>Italie</option>
+                <option value='all'>Allemagne</option>
+                <option value='br'>Brésil</option>
+            </datalist>
+			</select>
+			</div>
+				<div class="message">
+				<p id="pays">Vous devez selectionner votre pays de résidence</p>
+			</div>
+		</div>
+	</p>
+	
+	<p>
+		<div class ="label">
+		</div>
+		<div class="forme">
+		   <input type="checkbox" name="news" id="id-news" value="ok" checked> 
+		   <label for="id-news">Je désire recevoir la newsletter chaque mois.</label>
+		   </div>
+		</p>
+		
+		<p>
+		<div class ="label">
+		</div>
+		<div class="validation">
+			<input type="submit" id="envoyer" name="submit" value="M'inscrire">
+			<input type="reset" id='reinitialiser' name="reset" value="Réinitialiser le formulaire">
+		
+		</p>
+   </form>
+
+    <script src="asset/script.js"> </script>
+</body>
+</html>
